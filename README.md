@@ -1,14 +1,17 @@
 # linux_fs_creator
 Objective
+
 File system creator (fs_creator.sh) is a tool which is used in  to setup disk devices and perform the following tasks: create file system, create mount points running across reboots.
 It should be used on new installations where there are multiple disk drives detected in order to speed up the deploy process.
 
 Overview
+
 fs_creator.sh - is used by systems administrators to discover disk devices, partition them, perform file system creation and create mount points in order to mount the newly created file systems. Changes are saved in /etc/fstab. 
 It doesn’t require access to the network, it uses tools found on modern day Linux distributions so perform the task described above. The best is to be copy on the local file system, and remove any attached USB external storage devices.
 Tool is tested on RHEL 7 / Ubuntu 14.04 installed on VirtualBox with 7 virtual disk devices.
 
 Detailed Design
+
 The tool can be run from usb stick or copy to the local file system to user home directory.
 Super user privileges are needed when running the script.
 
