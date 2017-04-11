@@ -20,4 +20,4 @@ Pressing 1 will perform disk discovery on all disk devices found including exter
 
 As there are many variables on how to discover disk devices  and on which it should run, its better and more safe for the user to choose option 2, where user choose between storage disk devices. The program doesn’t tell which of the devices are used it assumes that it is run on fresh installation where only the main root file system exist and and is booted from sda. 
 Choosing option 2 will ask from the user to enter the devices which are to be excluded  and save the result in a file in /tmp for example: sdb sdg sdd sdr
-Afterwards it will compare the result from user chosen devices and all storage devices presented on the system and will run on the ones are available. The rest of the process is the same as described  in “Pressing 1”.
+Afterwards it will compare the result from user chosen devices and all storage devices presented on the system and will run on the ones are available. The rest of the process is the same as described  in “Pressing 1”..
